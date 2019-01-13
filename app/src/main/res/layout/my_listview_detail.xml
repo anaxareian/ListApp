@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:text="Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="19dp"
+            android:id="@+id/priceTextView"
+            android:layout_marginRight="19dp" android:layout_marginTop="25dp" android:layout_alignParentTop="true"
+            android:textSize="24sp"/>
+    <TextView
+            android:text="Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp" android:layout_alignParentLeft="true"
+            android:id="@+id/nameTextView" android:layout_marginLeft="50dp"
+            android:textSize="24sp" android:layout_marginTop="25dp" android:layout_alignParentTop="true"/>
+    <TextView
+            android:text="Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentTop="true"
+            android:id="@+id/descriptionTextView"
+            android:layout_marginTop="74dp" android:textSize="18sp"
+            android:layout_marginStart="47dp" android:layout_alignParentStart="true" android:layout_marginLeft="47dp"
+            android:layout_alignParentLeft="true"/>
+</RelativeLayout>
